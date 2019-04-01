@@ -689,6 +689,30 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
+"@progress/kendo-base-components-vue-wrapper@2019.1.220":
+  version "2019.1.220"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-base-components-vue-wrapper/-/kendo-base-components-vue-wrapper-2019.1.220.tgz#484fa25da3d52054f380e97046282cce207cc37e"
+  integrity sha512-ou7yksiHr1cYJH4BEueavC8IjTgiE4S4qQmzMwKz8RYKcnM0WeslMPYE/fFpUv6YYCSNunwG57kzx+q3kl8uCQ==
+
+"@progress/kendo-layout-vue-wrapper@^2019.1.220":
+  version "2019.1.220"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-layout-vue-wrapper/-/kendo-layout-vue-wrapper-2019.1.220.tgz#c448b5977c341d37c7ec327f09e64c07206bbe71"
+  integrity sha512-LItGBm/1KWqnqRIGm5Upe1FhQWfqpcXvayfS1qCzFW/s0ryg3h98UmXRk63a8fWzj/7pp2umHRDL8tRQUoV9kQ==
+  dependencies:
+    "@progress/kendo-base-components-vue-wrapper" "2019.1.220"
+
+"@progress/kendo-theme-default@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-theme-default/-/kendo-theme-default-3.4.0.tgz#bcfffb35c07aa3fdc6242bbbf361f6bf7cfe4cb3"
+  integrity sha512-Sij/q1f2ppWQo3IEsElXC7Pi+YJhLcEURSNk3arNHFuKeGkluMeESX1BNAFgo1SHlC++owvZasOwntH9Wl0sew==
+
+"@progress/kendo-ui@^2019.1.327":
+  version "2019.1.327"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-ui/-/kendo-ui-2019.1.327.tgz#8a1b04261de1a349f30593705d5a83c7dfde450e"
+  integrity sha512-dBVxNGCrAXMjGM7yUkApVgxbTIvgnwF7bR4kiDFbQCFbw72IonqhEe71l/OUVZsU+CNwWxwQYSPOMiS9xbIyrw==
+  dependencies:
+    jquery "<=3"
+
 "@soda/friendly-errors-webpack-plugin@^1.7.1":
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/@soda/friendly-errors-webpack-plugin/-/friendly-errors-webpack-plugin-1.7.1.tgz#706f64bcb4a8b9642b48ae3ace444c70334d615d"
@@ -4579,6 +4603,11 @@ joi@^14.3.0:
     hoek "6.x.x"
     isemail "3.x.x"
     topo "3.x.x"
+
+jquery@<=3:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+  integrity sha512-Ubldcmxp5np52/ENotGxlLe6aGMvmF4R8S6tZjsP6Knsaxd/xp3Zrh50cG93lR6nPXyUFwzN3ZSOQI0wRJNdGg==
 
 js-base64@^2.1.8:
   version "2.5.1"
